@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- INTEGRASI FAVICON (GitHub Pages Ready) -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- OPTIMASI META TITLE (Pas di bawah limit 580px) -->
+    <title>Kursus IELTS Band 9 Yogyakarta & English Korporat - ETK</title>
+    
+    <!-- OPTIMASI META DESCRIPTION (Pas di bawah limit 1000px) -->
+    <meta name="description" content="Kursus IELTS terbaik di Yogyakarta & pelatihan English korporat. Hubungi ETK Yogyakarta untuk akselerasi Band 9 dengan metode PPS eksekutif.">
+    <meta name="keywords" content="kursus ielts yogyakarta, ielts band 9 jogja, english for job interview jogja, pelatihan bahasa inggris korporat yogyakarta, prometric nursing test indonesia, privat ielts sleman">
+    <meta name="robots" content="index, follow">
+    
+    <!-- FIX KANONIKAL: Diselaraskan dengan direktori repository utama aktif -->
+    <link rel="canonical" href="https://gyoutrain-lab.github.io/ETKGlobal/">
+
+    <!-- OPEN GRAPH CONFIGURATION -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gyoutrain-lab.github.io/ETKGlobal/">
+    <meta property="og:title" content="Kursus IELTS Band 9 Yogyakarta & English Korporat | ETK Global">
+    <meta property="og:description" content="Lembaga pelatihan bahasa Inggris korporat dengan pendekatan PPS, akselerasi IELTS Band 9, dan transformasi karir global di Yogyakarta.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- TWITTER CARD CONFIGURATION -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kursus IELTS Band 9 Yogyakarta & English Korporat">
+    <meta name="twitter:description" content="Akselerasi target skor IELTS Band 9 & pelatihan komunikasi bisnis premium untuk korporat dan perawat internasional di Yogyakarta.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg">
+
+    <!-- JSON-LD SCHEMA MARKUP FOR EDUCATIONAL ORGANIZATION -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "ETK Yogyakarta",
+      "alternateName": "ETK Global Kursus Inggris & IELTS Yogyakarta",
+      "description": "Pusat akselerasi komunikasi bisnis otoritatif, kursus persiapan IELTS Band 9, persiapan TOEFL, dan pelatihan Prometric Nursing Test di Yogyakarta.",
+      "url": "https://gyoutrain-lab.github.io/ETKGlobal/",
+      "logo": "https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Logo%20ETK%20Cr.png",
+      "telephone": "+62-819-0168-5253",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Panjen Tajem, Maguwoharjo, Depok",
+        "addressLocality": "Sleman",
+        "addressRegion": "Daerah Istimewa Yogyakarta",
+        "postalCode": "55281",
+        "addressCountry": "ID"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Program Kursus Bahasa Inggris ETK",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Course",
+              "name": "Kursus IELTS Preparation Band 9 Yogyakarta",
+              "description": "Akselerasi skor IELTS Akademik dan Umum menggunakan dekonstruksi matriks penilaian resmi."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Course",
+              "name": "English for Corporate & Job Interview Business",
+              "description": "Pelatihan komunikasi persuasif dan eksekutif untuk menembus pasar kerja internasional."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #0b1329; 
+            color: #cbd5e1;
+            line-height: 1.7;
+        }
+        .container {
+            width: 92%;
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+
+        /* NAVIGATION SYSTEM */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 999; 
+            box-shadow: 0 10px 35px rgba(0,0,0,0.6); 
+        }
+        .header-problem-banner {
+            background-color: #dc2626; 
+            border-bottom: 3px solid #eab308; 
+            padding: 14px 0;
+            text-align: center;
+        }
+        .problem-banner-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+        .problem-banner-text .gold-trigger {
+            color: #facc15; 
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            display: inline-block;
+            margin: 0 5px;
+            animation: pulseGlow 2s infinite ease-in-out;
+            text-shadow: 2px 2px 0px #000000, 0 0 10px rgba(250, 204, 21, 0.6);
+        }
+        @keyframes pulseGlow {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.03); opacity: 0.95; }
+        }
+
+        .header-main-bar {
+            background: linear-gradient(135deg, #0d9488 0%, #115e59 100%); 
+            border-bottom: 2px solid #14b8a6;
+            padding: 25px 0; 
+        }
+        .header-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-solution-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+            min-width: 450px; 
+        }
+        .logo {
+            position: relative;
+            width: 130px; 
+            height: 50px;
+        }
+        .logo img {
+            height: 130px; 
+            width: auto;
+            display: block;
+            position: absolute;
+            top: -65px; 
+            left: 0;
+            z-index: 9999;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.6));
+            transition: transform 0.3s ease;
+        }
+        .logo img:hover {
+            transform: scale(1.08);
+        }
+
+        .solution-callout {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 1.3;
+        }
+        .solution-tag {
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #ffffff; 
+            background-color: #ef4444; 
+            letter-spacing: 1px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            align-self: flex-start;
+            margin-bottom: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .solution-text {
+            color: #facc15; 
+            font-size: 15px;
+            font-weight: 800;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+        }
+        .solution-text span {
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 13px;
+            font-style: italic;
+            display: block;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ccfbf1; 
+            font-weight: 700; 
+            margin-left: 25px; 
+            font-size: 18px; 
+            letter-spacing: -0.3px;
+            transition: all 0.2s ease;
+        }
+        nav a:hover { 
+            color: #ffffff; 
+            text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+        }
+
+        /* HERO LAYOUT */
+        .hero-split-section {
+            padding: 130px 0 80px 0; 
+            background: radial-gradient(circle at 20% 30%, rgba(20, 184, 166, 0.15), transparent 60%);
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .hero-text-side {
+            text-align: left;
+        }
+        .hero-text-side h1 {
+            font-size: 42px;
+            color: #ffffff;
+            font-weight: 800;
+            line-height: 1.25;
+            letter-spacing: -1px;
+            margin-bottom: 25px;
+        }
+        .problem-hook-badge {
+            display: inline-block;
+            background-color: #dc2626;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 13px;
+            padding: 4px 12px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .hero-text-side p {
+            font-size: 18px;
+            color: #94a3b8;
+            margin-bottom: 40px;
+        }
+        .hero-image-side {
+            position: relative;
+        }
+        .hero-banner-img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid #14b8a6;
+            box-shadow: 0 15px 35px rgba(13, 148, 136, 0.25);
+            transform: perspective(1000px) rotateY(-5deg);
+            transition: transform 0.5s ease;
+        }
+        .hero-banner-img:hover {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        .btn-cta {
+            display: inline-block;
+            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            box-shadow: 0 4px 20px rgba(13, 148, 136, 0.4);
+            transition: all 0.3s ease;
+        }
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(13, 148, 136, 0.6);
+        }
+
+        /* DASHBOARD ARCHITECTURE */
+        .dashboard-section {
+            padding: 90px 0;
+            background-color: #0f172a;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+        .dashboard-vertical-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+        .dashboard-tabs-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: sticky;
+            top: 250px; 
+        }
+        .tab-btn {
+            background-color: #1e293b;
+            color: #94a3b8;
+            border: 1px solid #334155;
+            padding: 16px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.25s ease;
+        }
+        .tab-btn:hover {
+            color: #ffffff;
+            border-color: #14b8a6;
+            background-color: #162238;
+        }
+        .tab-btn.active {
+            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            color: #ffffff;
+            border-color: #14b8a6;
+            box-shadow: 0 4px 15px rgba(13, 148, 136, 0.3);
+        }
+        .dashboard-content-panel {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            min-height: 480px;
+        }
+        .tab-panel {
+            display: none;
+        }
+        .tab-panel.active {
+            display: block;
+            animation: downwardSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @keyframes downwardSlideIn {
+            from { opacity: 0; transform: translateY(-15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .sub-program-downward-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .sub-card {
+            background-color: #111827;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.25s ease;
+        }
+        .sub-card:hover {
+            transform: translateY(-4px);
+            border-color: #14b8a6;
+            box-shadow: 0 8px 20px rgba(20, 184, 166, 0.1);
+        }
+        
+        /* OPTIMASI HEADING AUDIT SEO: Menggunakan penanda visual kustom untuk sub-layanan panel */
+        .sub-card-title {
+            color: #ffffff;
+            font-size: 17px;
+            margin-bottom: 12px;
+            font-weight: 700;
+            display: block;
+        }
+        .sub-card p {
+            font-size: 13.5px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        /* FORMS STRUCTURE */
+        .form-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #111827;
+            padding: 35px;
+            border-radius: 14px;
+            border: 1px solid #334155;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .form-control {
+            width: 100%;
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: #ffffff;
+            font-size: 14.5px;
+            transition: border-color 0.2s;
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: #14b8a6;
+        }
+        .btn-submit {
+            width: 100%;
+            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            color: #ffffff;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-submit:hover {
+            box-shadow: 0 5px 15px rgba(13, 148, 136, 0.4);
+        }
+
+        /* PACKAGES GRID */
+        .grid-section { padding: 90px 0; background-color: #0b1329; }
+        .program-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .program-card {
+            background-color: #1e293b;
+            padding: 45px 35px;
+            border-radius: 16px;
+            border: 1px solid #334155;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .program-card.popular {
+            border-color: #14b8a6;
+            box-shadow: 0 15px 35px rgba(20, 184, 166, 0.15);
+        }
+        .badge {
+            position: absolute;
+            top: -15px;
+            right: 25px;
+            background-color: #14b8a6;
+            color: #ffffff;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .program-card h3 { font-size: 23px; color: #ffffff; margin-bottom: 15px; font-weight: 700; }
+        .program-card .price { font-size: 24px; color: #14b8a6; font-weight: 800; margin-bottom: 20px; }
+        .program-card p { font-size: 14.5px; color: #94a3b8; text-align: justify; }
+
+        /* MEDIA GALLERY SYSTEM */
+        .media-gallery { padding: 90px 0; background-color: #0f172a; }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 30px;
+        }
+        .gallery-item {
+            background-color: #1e293b;
+            border-radius: 14px;
+            overflow: hidden;
+            border: 1px solid #334155;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+        .gallery-item img, .gallery-item video {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-caption {
+            padding: 22px;
+            font-size: 14.5px;
+            color: #94a3b8;
+            text-align: center;
+        }
+
+        /* EDITORIAL LAYOUT */
+        .article-section { padding: 100px 0; background-color: #0b1329; }
+        .article-wrapper {
+            background-color: #1e293b;
+            border-radius: 20px;
+            border: 1px solid #334155;
+            padding: 60px;
+        }
+        .article-wrapper h2 { font-size: 30px; color: #ffffff; margin-bottom: 25px; font-weight: 700; }
+        .article-wrapper h3 { font-size: 21px; color: #14b8a6; margin: 35px 0 12px 0; font-weight: 600; }
+        .article-wrapper p { font-size: 15.5px; color: #cbd5e1; margin-bottom: 25px; text-align: justify; }
+        
+        .alert-callout {
+            background: rgba(20, 184, 166, 0.1);
+            border-left: 4px solid #14b8a6;
+            padding: 26px;
+            margin: 35px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .alert-callout p { font-style: italic; margin-bottom: 0; color: #2dd4bf; }
+
+        /* FOOTER SYSTEM */
+        footer {
+            background-color: #060b18;
+            color: #64748b;
+            padding: 70px 0 35px 0;
+            font-size: 14px;
+            border-top: 1px solid #1e293b;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+        .footer-col h4 { color: #ffffff; font-size: 16px; margin-bottom: 18px; text-transform: uppercase; letter-spacing: 1px; }
+        .footer-col p { color: #94a3b8; }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 35px;
+            margin-top: 40px;
+            border-top: 1px solid #1e293b;
+            font-size: 12px;
+        }
+
+        /* RESPONSIVE LAYOUT MECHANICS */
+        @media (max-width: 1120px) {
+            .logo-solution-wrapper { min-width: 380px; }
+            .logo { width: 100px; }
+            .logo img { height: 100px; top: -50px; }
+            .solution-text { font-size: 13px; }
+            nav a { font-size: 16px; margin-left: 18px; }
+            .problem-banner-text { font-size: 16px; }
+            .problem-banner-text .gold-trigger { font-size: 19px; }
+        }
+        @media (max-width: 992px) {
+            header { position: static; } 
+            .logo { width: auto; height: auto; }
+            .logo img { position: static; height: 110px; margin: 0 auto; transform: none !important; }
+            .logo-solution-wrapper { flex-direction: column; text-align: center; gap: 10px; width: 100%; min-width: auto; }
+            .solution-callout { align-items: center; }
+            .header-flex { flex-direction: column; gap: 20px; }
+            nav a { font-size: 16px; margin: 0 10px; }
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-text-side { text-align: center; }
+            .hero-banner-img { transform: none !important; max-width: 500px; margin: 0 auto; }
+            .dashboard-vertical-layout { grid-template-columns: 1fr; }
+            .dashboard-tabs-vertical { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 10px; }
+            .tab-btn { white-space: nowrap; }
+        }
+        @media (max-width: 768px) {
+            .problem-banner-text { font-size: 13px; line-height: 1.4; padding: 0 10px; }
+            .problem-banner-text .gold-trigger { font-size: 15px; display: block; margin: 4px auto 0 auto; }
+            nav { justify-content: center; flex-wrap: wrap; gap: 10px; }
+            nav a { margin: 0 8px; font-size: 14px; }
+            .hero-text-side h1 { font-size: 30px; }
+            .article-wrapper { padding: 35px 25px; }
+            .section-title { font-size: 28px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-problem-banner">
+            <div class="container">
+                <div class="problem-banner-text">
+                    Stuck in Local Salary due to English Blocks? Unlock your <span class="gold-trigger">International Career - Big Money</span> Now!
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-main-bar">
+            <div class="container header-flex">
+                
+                <div class="logo-solution-wrapper">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Logo%20ETK%20Cr.png" alt="ETK Global Kursus Inggris & IELTS Yogyakarta">
+                        </a>
+                    </div>
+                    <div class="solution-callout">
+                        <span class="solution-tag">The Absolute Solution</span>
+                        <div class="solution-text">Akurat, Tepat & Modern <span>untuk Akselerasi Karir Global</span></div>
+                    </div>
+                </div>
+
+                <nav>
+                    <a href="#dashboard">Dashboard Program</a>
+                    <a href="#packages">Paket Program</a>
+                    <a href="#dokumentasi">Dokumentasi</a>
+                    <a href="#framework">Metodologi Teknis</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-split-section">
+        <div class="container hero-grid">
+            <div class="hero-text-side">
+                <div class="problem-hook-badge">Fakta Kegagalan Karir Global</div>
+                
+                <!-- H1 JUDUL UTAMA -->
+                <h1>Kalah Negosiasi Bisnis & Gagal Tes Internasional Karena Hambatan Struktur Bahasa?</h1>
+                
+                <!-- PENYELARASAN TEXT: Memasukkan keyword inti dari H1 agar robot index membaca keterkaitan erat struktur data konten -->
+                <p>Banyak eksekutif dan tenaga medis di Indonesia menderita kerugian besar seperti <strong>kalah negosiasi bisnis</strong> atau <strong>gagal tes internasional</strong> hanya karena kendala komunikasi. Hambatan struktur bahasa seringkali menjadi tembok tebal bagi kemajuan karir global Anda.</p>
+                <p>ETK Yogyakarta hadir sebagai solusi mutlak: mengintegrasikan pendekatan <strong>Persuasive Positioning System (PPS)</strong> untuk mengamankan akselerasi target skor kursus IELTS Band 9 serta penguasaan strategi pelatihan bahasa Inggris bisnis korporat di Yogyakarta.</p>
+                
+                <a href="#dashboard" class="btn-cta">Akses Portal Dashboard Program</a>
+            </div>
+            <div class="hero-image-side">
+                <img class="hero-banner-img" src="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg" alt="Kelas Akselerasi Bahasa Inggris Korporat ETK Yogyakarta">
+            </div>
+        </div>
+    </section>
+
+    <!-- DASHBOARD SECTION -->
+    <section class="dashboard-section" id="dashboard">
+        <div class="container">
+            <h2 class="section-title">Portal Pendaftaran & Program Kursus Bahasa Inggris ETK Yogyakarta</h2>
+            <p class="section-subtitle">Gunakan navigator vertikal untuk memicu visual alur data program secara downward di kanan.</p>
+            
+            <div class="dashboard-vertical-layout">
+                
+                <div class="dashboard-tabs-vertical">
+                    <button class="tab-btn active" onclick="switchTab(event, 'english-skills')">English Skills Matrix</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'market-analysis')">Market Analytics</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'learning-options')">Metode Pembelajaran</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'placement-test')">Placement Test Portal</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'registration')">Registrasi Resmi Keanggotaan</button>
+                </div>
+
+                <div class="dashboard-content-panel">
+                    
+                    <!-- TAB 1: SKILLS MATRIX -->
+                    <div id="english-skills" class="tab-panel active">
+                        <div class="sub-program-downward-grid">
+                            <div class="sub-card">
+                                <span class="sub-card-title">English Basic</span>
+                                <p>Restrukturisasi fondasi mekanika bahasa, pembenahan tata bahasa esensial, dan penghapusan kesalahan sintaksis mendasar.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for General Conversation</span>
+                                <p>Pengembangan kelancaran berbicara aktif serta penguasaan diksi konteksual untuk interaksi sosial berskala internasional.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for Public Speaking</span>
+                                <p>Penguasaan kontrol panggung, manipulasi intonasi persuasif, dan penyampaian presentasi korporat yang berbobot.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for Job Interview</span>
+                                <p>Strategi taktis menjawab pertanyaan menjebak ekspatriat dengan memposisikan diri sebagai konsultan eksternal pembawa solusi bisnis.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for Nursing Care Plan</span>
+                                <p>Aplikasi penguasaan terminologi medis dan dokumentasi asuhan keperawatan berbasis standar kompetensi profesional global.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for Nursing Prometric Test</span>
+                                <p>Pelatihan intensif pemecahan studi kasus medis tingkat tinggi khusus persiapan kelulusan ujian lisensi Prometric internasional.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for IELTS Test</span>
+                                <p>Akselerasi pencapaian target evaluasi IELTS Band 9 melalui dekonstruksi total terhadap seluruh komponen penilaian resmi di Yogyakarta.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for TOEFL Preparation Test</span>
+                                <p>Pembongkaran komprehensif algoritma tes TOEFL guna mendongkrak skor secara signifikan dalam waktu singkat.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">English for Kids</span>
+                                <p>Metode pengenalan dan pembiasaan komunikasi bahasa Inggris interaktif sejak dini menggunakan pendekatan aktif psikologi anak.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 2: MARKET ANALYTICS -->
+                    <div id="market-analysis" class="tab-panel">
+                        <div class="sub-program-downward-grid">
+                            <div class="sub-card">
+                                <span class="sub-card-title">Bollinger Band Integration</span>
+                                <p>Analisis volatilitas pasar, identifikasi jenuh beli atau jenuh jual, dan pemanfaatan deviasi standar dalam pengambilan keputusan investasi.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">Bandarmologi Matrix</span>
+                                <p>Pembongkaran jejak akumulasi dan distribusi volume transaksi untuk membaca pergerakan pasar secara presisi.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">Advanced Market Analytics</span>
+                                <p>Integrasi indikator teknikal lanjutan guna menyusun rencana perdagangan yang objektif dan terukur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 3: LEARNING OPTIONS -->
+                    <div id="learning-options" class="tab-panel">
+                        <div class="sub-program-downward-grid">
+                            <div class="sub-card">
+                                <span class="sub-card-title">Private Class IELTS & Corporate</span>
+                                <p>Akses bimbingan eksklusif tatap muka satu lawan satu dengan kurikulum yang dikustomisasi penuh sesuai profil kompetensi Anda.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">Online Virtual Learning</span>
+                                <p>Sistem pembelajaran jarak jauh interaktif dengan fleksibilitas ruang tanpa mengurangi kualitas kedalaman materi teknis.</p>
+                            </div>
+                            <div class="sub-card">
+                                <span class="sub-card-title">Kelompok Tatap Muka Jogja</span>
+                                <p>Ekosistem belajar grup berskala kecil untuk melatih argumen aktif dan adu retorika di ruang kelas riil ETK Yogyakarta.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 4: PLACEMENT TEST -->
+                    <div id="placement-test" class="tab-panel">
+                        <div class="form-wrapper">
+                            <span class="sub-card-title" style="text-align:center; font-size: 20px; color:#fff;">Pengajuan Simulasi Uji Penempatan</span>
+                            <form onsubmit="sendToWhatsApp(event, 'Placement Test')">
+                                <div class="form-group">
+                                    <label>Nama Lengkap Peserta</label>
+                                    <input type="text" id="pt-name" class="form-control" required placeholder="Masukkan nama Anda">
+                                </div>
+                                <div class="form-group">
+                                    <label>Instansi / Perusahaan</label>
+                                    <input type="text" id="pt-company" class="form-control" required placeholder="Nama Instansi/Korporat">
+                                </div>
+                                <div class="form-group">
+                                    <label>Pilihan Program Fokus</label>
+                                    <select id="pt-program" class="form-control">
+                                        <option value="IELTS Band 9 Masterclass">IELTS Band 9 Masterclass</option>
+                                        <option value="English Korporat & Business Communication">English Korporat & Business Communication</option>
+                                        <option value="Prometric Nursing Test Preparation">Prometric Nursing Test Preparation</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn-submit">Kirim Data via WhatsApp Secure</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- TAB 5: REGISTRATION -->
+                    <div id="registration" class="tab-panel">
+                        <div class="form-wrapper">
+                            <span class="sub-card-title" style="text-align:center; font-size: 20px; color:#fff;">Registrasi Resmi Keanggotaan</span>
+                            <form onsubmit="sendToWhatsApp(event, 'Registrasi Anggota Baru')">
+                                <div class="form-group">
+                                    <label>Nama Lengkap Sesuai ID</label>
+                                    <input type="text" id="reg-name" class="form-control" required placeholder="Nama Lengkap">
+                                </div>
+                                <div class="form-group">
+                                    <label>Nomor Telepon Aktif</label>
+                                    <input type="tel" id="reg-phone" class="form-control" required placeholder="08xxxxxxxxxx">
+                                </div>
+                                <button type="submit" class="btn-submit">Selesaikan Registrasi Resmi</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES SECTION -->
+    <section class="grid-section" id="packages">
+        <div class="container">
+            <h2 class="section-title">Paket Program Pilihan Unggulan</h2>
+            <p class="section-subtitle">Investasi kompetensi bahasa global terbaik di Yogyakarta dengan sistem terukur.</p>
+            <div class="program-grid">
+                <div class="program-card">
+                    <h3>IELTS Preparation</h3>
+                    <div class="price">Band 9 Goal</div>
+                    <p>Kelas eksklusif dekonstruksi total matriks pengujian IELTS. Didesain untuk akselerasi efisien skor Listening, Reading, Writing, dan Speaking Anda dengan pendekatan target akademik global.</p>
+                </div>
+                <div class="program-card popular">
+                    <div class="badge">Terpopuler</div>
+                    <h3>English Corporate</h3>
+                    <div class="price">Executive Class</div>
+                    <p>Pelatihan bahasa Inggris komunikasi bisnis persuasif berskala korporat. Fokus penuh pada kemampuan presentasi tingkat tinggi, negosiasi kemitraan ekspatriat, dan eksekusi memo formal.</p>
+                </div>
+                <div class="program-card">
+                    <h3>Prometric Nurse</h3>
+                    <div class="price">International License</div>
+                    <p>Kurikulum taktis untuk perawat profesional Indonesia menembus pasar internasional. Bimbingan pengerjaan simulasi soal Prometric medis dan terminologi perawatan kesehatan global.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOCUMENTATION SYSTEM -->
+    <section class="media-gallery" id="dokumentasi">
+        <div class="container">
+            <h2 class="section-title">Dokumentasi Ekosistem ETK Global</h2>
+            <p class="section-subtitle">Galeri simulasi kelas, uji sertifikasi, dan aktivitas akselerasi karir eksekutif.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg" alt="Suasana Kelas Privat Intensif ETK Yogyakarta">
+                    <div class="gallery-caption">Simulasi Tatap Muka Forum Negosiasi Bisnis Kemitraan Korporat</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg" alt="Uji Materi Kursus Persiapan IELTS Yogyakarta">
+                    <div class="gallery-caption">Evaluasi Rutin Simulasi Real-Case Study Mock Up IELTS Band 9</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDITORIAL CONTENT SYSTEM -->
+    <section class="article-section" id="framework">
+        <div class="container">
+            <div class="article-wrapper">
+                <h2>Metodologi Teknis PPS: Pilar Utama Transformasi Komunikasi Global</h2>
+                <p>Pembelajaran konvensional umumnya membebani siswa dengan hafalan rumus tata bahasa kaku yang tidak adaptif dalam realitas industri dunia kerja nyata. Di ETK Global Yogyakarta, kami menerapkan terobosan berupa sistem <strong>Persuasive Positioning System (PPS)</strong>.</p>
+                
+                <h3>Akselerasi Melalui Dekonstruksi Matriks Pengujian</h3>
+                <p>Dalam program kursus persiapan IELTS Band 9 Yogyakarta, metodologi ini berfungsi membongkar parameter penilaian penguji (Examiner Matrix). Bukan sekadar melatih kemampuan pasif, Anda diajarkan memposisikan kedalaman argumen terstruktur yang dicari oleh standar internasional.</p>
+
+                <div class="alert-callout">
+                    <p>"Bukan hanya tentang apa yang Anda katakan di depan klien internasional, melainkan tentang bagaimana struktur penawaran Anda menempatkan bisnis Anda sebagai satu-satunya solusi otoritatif yang mereka butuhkan."</p>
+                </div>
+
+                <h3>Pelatihan Bahasa Inggris Korporat Berdaya Tawar Tinggi</h3>
+                <p>Bagi pelaku industri korporasi, kemahiran berbahasa bukan lagi sekadar urusan hobi, melainkan instrumen krusial penentu profitabilitas perusahaan. Melalui program penanganan mitigasi hambatan bahasa, kami merekayasa pola interaksi operasional bisnis Anda agar setara dengan standar komunikasi para ekspatriat global.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>ETK Global Yogyakarta</h4>
+                <p>Pusat pelatihan komunikasi bisnis eksekutif, kursus persiapan IELTS Band 9, dan pendampingan ujian lisensi medis Prometric internasional di Yogyakarta.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontak & Lokasi</h4>
+                <p>Panjen Tajem, Maguwoharjo, Depok, Sleman<br>Daerah Istimewa Yogyakarta 55281</p>
+                <p style="margin-top:10px;">Hotline: +62 819-0168-5253</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 ETK Global. All Rights Reserved. Kursus IELTS Terbaik & Pelatihan Bahasa Inggris Bisnis Korporat Yogyakarta.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE SCRIPTS CODE -->
+    <script>
+        // Tab-Switching Logic for Vertical Dashboard
+        function switchTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-panel");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+            }
+            tablinks = document.getElementsByClassName("tab-btn");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabId).className += " active";
+            evt.currentTarget.className += " active";
+        }
+
+        // WhatsApp Secure Integration System
+        function sendToWhatsApp(event, type) {
+            event.preventDefault();
+            var phoneNumber = "6281901685253";
+            var message = "";
+            
+            if (type === 'Placement Test') {
+                var name = document.getElementById('pt-name').value;
+                var company = document.getElementById('pt-company').value;
+                var program = document.getElementById('pt-program').value;
+                message = "*Pengajuan Simulasi Uji Penempatan ETK*\n\n" +
+                          "*Nama:* " + name + "\n" +
+                          "*Instansi:* " + company + "\n" +
+                          "*Program:* " + program;
+            } else if (type === 'Registrasi Anggota Baru') {
+                var regName = document.getElementById('reg-name').value;
+                var regPhone = document.getElementById('reg-phone').value;
+                message = "*Registrasi Resmi Anggota Baru ETK*\n\n" +
+                          "*Nama Lengkap:* " + regName + "\n" +
+                          "*Telepon:* " + regPhone;
+            }
+            
+            var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
