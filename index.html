@@ -3,127 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETK SEO Checker</title>
+    
+    <!-- 1. KEYWORD OPTIMIZED TITLE & DESCRIPTION -->
+    <title>ETK SEO Checker | Free Website Audit & SEO Analysis Tool</title>
+    <meta name="description" content="Analyze your website's SEO health instantly. ETK SEO Checker provides free insights on meta tags, page speed, mobile optimization, and keyword density.">
+    <meta name="keywords" content="SEO checker, website audit tool, free SEO analysis, meta tag checker, technical SEO tool">
 
-    <!-- 1. SEO Compliance: Canonical URL -->
-    <!-- Tells search engines that this is the primary, master version of the page -->
+    <!-- 2. CANONICAL COMPLIANCE -->
     <link rel="canonical" href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" />
 
-    <!-- 2. Social Media Compliance: Open Graph Protocols (Facebook, LinkedIn) -->
+    <!-- 3. OPEN GRAPH (SOCIAL SEO) -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ETK SEO Checker" />
-    <meta property="og:description" content="Analyze and optimize your website performance with the ETK SEO Checker." />
+    <meta property="og:title" content="ETK SEO Checker | Free Website Audit Tool" />
+    <meta property="og:description" content="Instantly analyze your web page and get actionable tips to improve your Google rankings." />
     <meta property="og:url" content="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" />
-    <meta property="og:image" content="https://gyoutrain-lab.github.io/ETK_SEO_checker1/assets/og-image.jpg" />
 
-    <!-- 3. Twitter Card Compliance -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ETK SEO Checker" />
-    <meta name="twitter:description" content="Analyze and optimize your website performance with the ETK SEO Checker." />
-    <meta name="twitter:url" content="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" />
+    <!-- 4. GOOGLE STRUCTURED DATA (JSON-LD Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ETK SEO Checker",
+      "url": "https://gyoutrain-lab.github.io/ETK_SEO_checker1/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires HTML5",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "abstract": "A comprehensive web-based tool designed to run instant SEO performance audits on any URL."
+    }
+    </script>
 
     <style>
         :root {
-            --primary-color: #2563eb;
-            --text-color: #1f2937;
-            --bg-color: #f3f4f6;
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --text-muted: #64748b;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
             margin: 0;
-            padding: 0;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
+            color: var(--dark);
+            background-color: #ffffff;
         }
         header {
-            background-color: #ffffff;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-bottom: 1px solid #e2e8f0;
             padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .logo a {
-            font-weight: bold;
-            font-size: 1.25rem;
-            color: var(--primary-color);
+        .logo {
+            font-weight: 800;
+            font-size: 1.4rem;
+            color: var(--dark);
             text-decoration: none;
         }
+        .logo span { color: var(--primary); }
         nav a {
-            color: #4b5563;
+            color: var(--text-muted);
             text-decoration: none;
             margin-left: 1.5rem;
-        }
-        nav a:hover {
-            color: var(--primary-color);
-        }
-        main {
-            flex: 1;
-            max-width: 800px;
-            margin: 3rem auto;
-            padding: 0 1.5rem;
-            text-align: center;
-        }
-        .card {
-            background: #ffffff;
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-        }
-        .btn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: #ffffff;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            text-decoration: none;
             font-weight: 500;
-            margin-top: 1.5rem;
+        }
+        nav a:hover { color: var(--dark); }
+        
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            background: linear-gradient(180deg, var(--light) 0%, #ffffff 100%);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            letter-spacing: -0.05em;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 2.5rem auto;
+        }
+        
+        .checker-box {
+            background: white;
+            padding: 0.5rem;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            border: 1px solid #e2e8f0;
+        }
+        .checker-box input {
+            flex: 1;
+            border: none;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 50px;
+            outline: none;
+        }
+        .checker-box button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
             transition: background 0.2s;
         }
-        .btn:hover {
-            background-color: #1d4ed8;
+        .checker-box button:hover { background: var(--primary-dark); }
+
+        .features {
+            max-width: 1000px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
         }
+        .feature-card {
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: var(--light);
+        }
+        .feature-card h3 { margin-top: 0; }
+        
         footer {
             text-align: center;
-            padding: 1.5rem;
-            font-size: 0.875rem;
-            color: #6b7280;
-            background-color: #ffffff;
-            border-top: 1px solid #e5e7eb;
+            padding: 3rem 1rem;
+            border-top: 1px solid #e2e8f0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="logo">
-            <!-- Navigation back to the home address -->
-            <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/">ETK SEO Checker</a>
-        </div>
+        <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" class="logo">ETK <span>SEO Checker</span></a>
         <nav>
-            <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/">Home</a>
-            <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/#features">Features</a>
+            <a href="#features">Features</a>
+            <a href="#about">Why Us</a>
         </nav>
     </header>
 
     <main>
-        <div class="card">
-            <h1>ETK SEO Checker Integration Complete</h1>
-            <p>Your portal has successfully been rebuilt to point to the new repository home. Click below to explore the latest live deployment.</p>
+        <!-- SEMANTIC HERO SECTION WITH TARGET KEYWORDS -->
+        <section class="hero">
+            <h1>Analyze Your Website's SEO Health in Seconds</h1>
+            <p>Identify critical technical SEO mistakes, track keyword performance, and outrank your competitors on search engines.</p>
             
-            <!-- External/Action Link compliance -->
-            <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" class="btn">
-                Launch Application
-            </a>
-        </div>
+            <div class="checker-box">
+                <input type="url" placeholder="Enter your website URL (e.g., https://example.com)" required>
+                <button type="submit">Analyze Page</button>
+            </div>
+        </section>
+
+        <!-- RICH CONTENT FOR SEO SEARCH BOT CRAWLERS -->
+        <section id="features" class="features">
+            <div class="feature-card">
+                <h3>🔍 On-Page SEO Analysis</h3>
+                <p>Instantly check your heading structures ($<h1>$-$<h6>$), evaluate image alt attributes, and verify title and meta description tag lengths.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚡ Core Web Vitals Audit</h3>
+                <p>Slow sites drop in Google rankings. Test your real-world page loading speeds, layout shifts, and server response times.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 Mobile-Friendly Evaluation</h3>
+                <p>Ensure your website scales seamlessly across mobile devices to satisfy Google's mobile-first indexing engine.</p>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" style="color: inherit; text-decoration: none;">ETK SEO Checker</a>. All rights reserved.</p>
+        <p>&copy; 2026 <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" style="color: inherit;">ETK SEO Checker</a>. Built for technical web optimization.</p>
     </footer>
 
 </body>
