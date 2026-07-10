@@ -1,58 +1,61 @@
 <!DOCTYPE html>
+<!-- 1. CRITICAL: Lang attribute is required for accessibility & SEO scoring -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- 2. CRITICAL: Viewport tag required for mobile-friendly checks -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- 1. KEYWORD OPTIMIZED TITLE & DESCRIPTION -->
-    <title>ETK SEO Checker | Free Website Audit & SEO Analysis Tool</title>
-    <meta name="description" content="Analyze your website's SEO health instantly. ETK SEO Checker provides free insights on meta tags, page speed, mobile optimization, and keyword density.">
-    <meta name="keywords" content="SEO checker, website audit tool, free SEO analysis, meta tag checker, technical SEO tool">
+    <!-- 3. CRITICAL: Character length must be 50-60 characters with high-value keywords -->
+    <title>ETK Global | Global Supply Chain & Logistics Solutions</title>
+    
+    <!-- 4. CRITICAL: Meta description must be 120-160 characters or checkers penalize it -->
+    <meta name="description" content="ETK Global provides world-class supply chain management, international freight forwarding, and integrated logistics solutions globally.">
+    
+    <!-- 5. CRITICAL: The exact canonical link to prevent duplicate content flags -->
+    <link rel="canonical" href="https://gyoutrain-lab.github.io/ETKGlobal/" />
+    
+    <!-- 6. ACCESSIBILITY: Theme color for browser status bars -->
+    <meta name="theme-color" content="#1e3a8a">
 
-    <!-- 2. CANONICAL COMPLIANCE -->
-    <link rel="canonical" href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" />
-
-    <!-- 3. OPEN GRAPH (SOCIAL SEO) -->
+    <!-- Open Graph (Required for Social Media SEO Checks) -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ETK SEO Checker | Free Website Audit Tool" />
-    <meta property="og:description" content="Instantly analyze your web page and get actionable tips to improve your Google rankings." />
-    <meta property="og:url" content="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" />
-
-    <!-- 4. GOOGLE STRUCTURED DATA (JSON-LD Schema) -->
+    <meta property="og:title" content="ETK Global | Global Logistics Solutions" />
+    <meta property="og:description" content="Streamline your international freight and supply chain operations with ETK Global." />
+    <meta property="og:url" content="https://gyoutrain-lab.github.io/ETKGlobal/" />
+    <!-- Replace with a real preview image path when available -->
+    <meta property="og:image" content="https://gyoutrain-lab.github.io/ETKGlobal/images/og-share.jpg" />
+    
+    <!-- Structured Data / JSON-LD (Guarantees major bonus points on SEO engines) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "ETK SEO Checker",
-      "url": "https://gyoutrain-lab.github.io/ETK_SEO_checker1/",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "All",
-      "browserRequirements": "Requires HTML5",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "abstract": "A comprehensive web-based tool designed to run instant SEO performance audits on any URL."
+      "@type": "Organization",
+      "name": "ETK Global",
+      "url": "https://gyoutrain-lab.github.io/ETKGlobal/",
+      "logo": "https://gyoutrain-lab.github.io/ETKGlobal/images/logo.png",
+      "description": "Global supply chain management and integrated logistics provider."
     }
     </script>
 
     <style>
+        /* Modern, blazing-fast CSS layout with high color contrast for Accessibility scores */
         :root {
-            --primary: #10b981;
-            --primary-dark: #059669;
+            --primary: #1e3a8a;
             --dark: #0f172a;
             --light: #f8fafc;
-            --text-muted: #64748b;
+            --text-main: #334155;
         }
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
-            color: var(--dark);
+            padding: 0;
+            color: var(--text-main);
             background-color: #ffffff;
+            line-height: 1.5;
         }
         header {
+            background-color: #ffffff;
             border-bottom: 1px solid #e2e8f0;
             padding: 1rem 2rem;
             display: flex;
@@ -60,136 +63,86 @@
             align-items: center;
         }
         .logo {
-            font-weight: 800;
-            font-size: 1.4rem;
-            color: var(--dark);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
             text-decoration: none;
         }
-        .logo span { color: var(--primary); }
         nav a {
-            color: var(--text-muted);
+            color: var(--text-main);
             text-decoration: none;
             margin-left: 1.5rem;
             font-weight: 500;
         }
-        nav a:hover { color: var(--dark); }
-        
-        .hero {
-            text-align: center;
-            padding: 5rem 1rem;
-            background: linear-gradient(180deg, var(--light) 0%, #ffffff 100%);
+        nav a:hover {
+            color: var(--primary);
         }
+        .hero {
+            padding: 5rem 2rem;
+            text-align: center;
+            background-color: var(--light);
+        }
+        /* High-contrast font colors prevent accessibility score drops */
         .hero h1 {
-            font-size: 3rem;
-            letter-spacing: -0.05em;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
+            font-size: 2.75rem;
+            color: var(--dark);
+            margin: 0 0 1rem 0;
         }
         .hero p {
             font-size: 1.25rem;
-            color: var(--text-muted);
             max-width: 600px;
-            margin: 0 auto 2.5rem auto;
+            margin: 0 auto 2rem auto;
+            color: var(--text-main);
         }
-        
-        .checker-box {
-            background: white;
-            padding: 0.5rem;
-            border-radius: 50px;
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            border: 1px solid #e2e8f0;
-        }
-        .checker-box input {
-            flex: 1;
-            border: none;
-            padding: 1rem 1.5rem;
-            font-size: 1rem;
-            border-radius: 50px;
-            outline: none;
-        }
-        .checker-box button {
-            background: var(--primary);
-            color: white;
-            border: none;
-            padding: 1rem 2rem;
-            font-size: 1rem;
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 0.75rem 1.75rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
             font-weight: 600;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: background 0.2s;
         }
-        .checker-box button:hover { background: var(--primary-dark); }
-
-        .features {
-            max-width: 1000px;
-            margin: 4rem auto;
-            padding: 0 1rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
+        .cta-btn:hover {
+            background-color: #1e40af;
         }
-        .feature-card {
-            padding: 1.5rem;
-            border-radius: 12px;
-            background: var(--light);
-        }
-        .feature-card h3 { margin-top: 0; }
-        
         footer {
+            background-color: var(--dark);
+            color: #94a3b8;
             text-align: center;
-            padding: 3rem 1rem;
-            border-top: 1px solid #e2e8f0;
-            color: var(--text-muted);
-            font-size: 0.9rem;
+            padding: 2rem 1rem;
+            margin-top: auto;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
 
+    <!-- 7. CRITICAL SEMANTIC TAGS: Use <header>, <main>, <footer> instead of <div> -->
     <header>
-        <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" class="logo">ETK <span>SEO Checker</span></a>
+        <a href="https://gyoutrain-lab.github.io/ETKGlobal/" class="logo">ETK Global</a>
         <nav>
-            <a href="#features">Features</a>
-            <a href="#about">Why Us</a>
+            <!-- 8. CRITICAL: Every link MUST have clear text. Never leave an <a> tag empty or just an icon -->
+            <a href="https://gyoutrain-lab.github.io/ETKGlobal/">Home</a>
+            <a href="https://gyoutrain-lab.github.io/ETKGlobal/#services">Services</a>
         </nav>
     </header>
 
     <main>
-        <!-- SEMANTIC HERO SECTION WITH TARGET KEYWORDS -->
         <section class="hero">
-            <h1>Analyze Your Website's SEO Health in Seconds</h1>
-            <p>Identify critical technical SEO mistakes, track keyword performance, and outrank your competitors on search engines.</p>
-            
-            <div class="checker-box">
-                <input type="url" placeholder="Enter your website URL (e.g., https://example.com)" required>
-                <button type="submit">Analyze Page</button>
-            </div>
-        </section>
-
-        <!-- RICH CONTENT FOR SEO SEARCH BOT CRAWLERS -->
-        <section id="features" class="features">
-            <div class="feature-card">
-                <h3>🔍 On-Page SEO Analysis</h3>
-                <p>Instantly check your heading structures ($<h1>$-$<h6>$), evaluate image alt attributes, and verify title and meta description tag lengths.</p>
-            </div>
-            <div class="feature-card">
-                <h3>⚡ Core Web Vitals Audit</h3>
-                <p>Slow sites drop in Google rankings. Test your real-world page loading speeds, layout shifts, and server response times.</p>
-            </div>
-            <div class="feature-card">
-                <h3>📱 Mobile-Friendly Evaluation</h3>
-                <p>Ensure your website scales seamlessly across mobile devices to satisfy Google's mobile-first indexing engine.</p>
-            </div>
+            <!-- 9. CRITICAL: Exactly ONE <h1> tag per page, containing your core title -->
+            <h1>Smart Logistics For A Connected World</h1>
+            <p>Reliable cargo shipping, customs brokerage, and warehouse fulfillment optimized to scale your international business operations effortlessly.</p>
+            <a href="https://gyoutrain-lab.github.io/ETKGlobal/#contact" class="cta-btn">Get a Quote</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 <a href="https://gyoutrain-lab.github.io/ETK_SEO_checker1/" style="color: inherit;">ETK SEO Checker</a>. Built for technical web optimization.</p>
+        <!-- 10. CRITICAL: Fully qualified matching footer links -->
+        <p>&copy; 2026 <a href="https://gyoutrain-lab.github.io/ETKGlobal/">ETK Global</a>. All rights reserved.</p>
     </footer>
 
 </body>
