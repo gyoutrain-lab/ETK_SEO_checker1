@@ -236,19 +236,19 @@
         .program-card h2 { font-size: 23px; color: #ffffff; margin-bottom: 15px; }
         .program-card .price { font-size: 24px; color: #14b8a6; font-weight: 800; margin-bottom: 20px; }
 
-        /* MEDIA GALLERY SYSTEM */
+        /* MEDIA GALLERY SYSTEM (GRID MULTI-IMAGE) */
         .media-gallery { padding: 90px 0; background-color: #0f172a; }
-        .gallery-grid { display: flex; flex-direction: column; gap: 30px; }
-        .gallery-item { background-color: #1e293b; border-radius: 14px; overflow: hidden; border: 1px solid #334155; width: 100%; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .gallery-item { background-color: #1e293b; border-radius: 14px; overflow: hidden; border: 1px solid #334155; display: flex; flex-direction: column; }
         .gallery-item img { 
             width: 100%; 
             height: auto; 
             aspect-ratio: 16 / 9; 
-            object-fit: contain;  
+            object-fit: cover;  
             background-color: #0b1329; 
             display: block; 
         }
-        .gallery-caption { padding: 22px; font-size: 14.5px; color: #94a3b8; text-align: center; }
+        .gallery-caption { padding: 22px; font-size: 14.5px; color: #94a3b8; text-align: center; margin-top: auto; border-top: 1px solid #334155; }
 
         /* EXTERNAL RESOURCE LINKS BAR */
         .external-resources-bar {
@@ -430,15 +430,23 @@
             </div>
         </section>
 
-        <!-- DOCUMENTATION SECTION -->
+        <!-- DOCUMENTATION SECTION (SUDAH DIPERBAIKI DENGAN 3 GAMBAR BARU RAPI) -->
         <section class="media-gallery" id="dokumentasi">
             <div class="container">
                 <div class="section-title">Dokumentasi Ekosistem ETK Global</div>
                 <p class="section-subtitle">Galeri simulasi kelas, uji sertifikasi, dan aktivitas akselerasi karir eksekutif.</p>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETKGlobal/main/Header%20Cr.jpg" alt="Suasana Kelas Privat Intensif ETK Yogyakarta">
+                        <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETK_SEO_checker1/main/Class_career1.png" alt="Aktivitas Pengembangan Karir Global ETK Yogyakarta">
+                        <div class="gallery-caption">Sesi Strategi Karir Internasional & Penguasaan Kompetensi Korporat</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETK_SEO_checker1/main/class-career2.png" alt="Suasana Kelas Interaktif ETK Global">
                         <div class="gallery-caption">Simulasi Tatap Muka Forum Negosiasi Bisnis Kemitraan Korporat</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://raw.githubusercontent.com/gyoutrain-lab/ETK_SEO_checker1/main/class_career3.png" alt="Akselerasi IELTS Band 9 Mentor ETK">
+                        <div class="gallery-caption">Pelatihan Intensif Persiapan Akselerasi Target Evaluasi IELTS Berbobot</div>
                     </div>
                 </div>
             </div>
