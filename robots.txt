@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gyoutrain-lab.github.io/ETK_SEO_checker1/sitemap.xml
