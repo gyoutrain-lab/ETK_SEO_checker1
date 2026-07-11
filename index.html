@@ -237,9 +237,9 @@
         .gallery-item img { 
             width: 100%; 
             height: auto; 
-            aspect-ratio: 16 / 9; /* Memaksa rasio aspek banner horizontal standar */
-            object-fit: contain;  /* Menjamin gambar tampil penuh 100% tanpa terpotong atas-bawah */
-            background-color: #0b1329; /* Background kontras jika aspek gambar sedikit berbeda */
+            aspect-ratio: 16 / 9; 
+            object-fit: contain;  
+            background-color: #0b1329; 
             display: block; 
         }
         .gallery-caption { padding: 22px; font-size: 14.5px; color: #94a3b8; text-align: center; }
@@ -261,10 +261,10 @@
         }
         .external-resources-bar a:hover { text-decoration: underline; }
 
-        /* FOOTER SYSTEM */
+        /* FOOTER SYSTEM WITH FIXED HEADING MATRIX STYLE */
         footer { background-color: #060b18; color: #64748b; padding: 70px 0 35px 0; font-size: 14px; border-top: 1px solid #1e293b; }
         .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; }
-        .footer-col h4 { color: #ffffff; font-size: 16px; margin-bottom: 18px; text-transform: uppercase; }
+        .footer-col h3 { color: #ffffff; font-size: 16px; margin-bottom: 18px; text-transform: uppercase; font-weight: 700; }
         .footer-col a { color: #64748b; text-decoration: none; }
         .footer-col a:hover { color: #ffffff; }
         .footer-bottom { text-align: center; padding-top: 35px; margin-top: 40px; border-top: 1px solid #1e293b; }
@@ -421,7 +421,7 @@
             </div>
         </section>
 
-        <!-- DOCUMENTATION SECTION - FIX BANNER TAMPIL FULL AMAN -->
+        <!-- DOCUMENTATION SECTION -->
         <section class="media-gallery" id="dokumentasi">
             <div class="container">
                 <div class="section-title">Dokumentasi Ekosistem ETK Global</div>
@@ -435,7 +435,7 @@
             </div>
         </section>
 
-        <!-- PRIVACY SECURE LINKS: Mengarah ke domain utama GitHub untuk nilai SEO luar & perlindungan privasi -->
+        <!-- PRIVACY SECURE LINKS BAR -->
         <section class="external-resources-bar">
             <div class="container">
                 <span>Supported by: </span>
@@ -445,15 +445,15 @@
         </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER SYSTEM (HIRARKI SUDAH DIPERBAIKI DARI H4 MENJADI H3 AGAR PAS SETELAH H2) -->
     <footer>
         <div class="container footer-grid">
             <div class="footer-col">
-                <h4>ETK Global Yogyakarta</h4>
+                <h3>ETK Global Yogyakarta</h3>
                 <p>Pusat pelatihan komunikasi bisnis eksekutif, kursus persiapan IELTS Band 9 di Yogyakarta.</p>
             </div>
             <div class="footer-col">
-                <h4>Halaman Hukum</h4>
+                <h3>Kontak & Lokasi</h3>
                 <p><a href="robots.txt">Lihat Berkas Protokol Robots</a></p>
             </div>
         </div>
