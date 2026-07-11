@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- INTEGRASI FAVICON -->
+    <!-- INTEGRASI FAVICON & MANIFEST -->
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="shortcut icon" href="favicon.ico" />
@@ -230,14 +230,21 @@
         .program-card h2 { font-size: 23px; color: #ffffff; margin-bottom: 15px; }
         .program-card .price { font-size: 24px; color: #14b8a6; font-weight: 800; margin-bottom: 20px; }
 
-        /* MEDIA GALLERY SYSTEM */
+        /* MEDIA GALLERY SYSTEM - FIX BANNER UTUH PROPORSIONAL */
         .media-gallery { padding: 90px 0; background-color: #0f172a; }
-        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 30px; }
-        .gallery-item { background-color: #1e293b; border-radius: 14px; overflow: hidden; border: 1px solid #334155; }
-        .gallery-item img { width: 100%; height: 280px; object-fit: cover; display: block; }
+        .gallery-grid { display: flex; flex-direction: column; gap: 30px; }
+        .gallery-item { background-color: #1e293b; border-radius: 14px; overflow: hidden; border: 1px solid #334155; width: 100%; }
+        .gallery-item img { 
+            width: 100%; 
+            height: auto; 
+            aspect-ratio: 16 / 9; /* Memaksa rasio aspek banner horizontal standar */
+            object-fit: contain;  /* Menjamin gambar tampil penuh 100% tanpa terpotong atas-bawah */
+            background-color: #0b1329; /* Background kontras jika aspek gambar sedikit berbeda */
+            display: block; 
+        }
         .gallery-caption { padding: 22px; font-size: 14.5px; color: #94a3b8; text-align: center; }
 
-        /* EXTERNAL RESOURCE LINKS */
+        /* EXTERNAL RESOURCE LINKS BAR */
         .external-resources-bar {
             background-color: #111827;
             padding: 20px 0;
@@ -414,7 +421,7 @@
             </div>
         </section>
 
-        <!-- DOCUMENTATION SECTION -->
+        <!-- DOCUMENTATION SECTION - FIX BANNER TAMPIL FULL AMAN -->
         <section class="media-gallery" id="dokumentasi">
             <div class="container">
                 <div class="section-title">Dokumentasi Ekosistem ETK Global</div>
@@ -428,11 +435,11 @@
             </div>
         </section>
 
-        <!-- FIX EXTERNAL LINKS PROTOCOL -->
+        <!-- PRIVACY SECURE LINKS: Mengarah ke domain utama GitHub untuk nilai SEO luar & perlindungan privasi -->
         <section class="external-resources-bar">
             <div class="container">
                 <span>Supported by: </span>
-                <a href="https://github.com/gyoutrain-lab/ETK_SEO_checker1" target="_blank" rel="nofollow noopener noreferrer">GitHub Open Source</a>
+                <a href="https://github.com" target="_blank" rel="nofollow noopener noreferrer">GitHub Open Source</a>
                 <a href="https://api.whatsapp.com" target="_blank" rel="nofollow noopener noreferrer">Secure WhatsApp Gateway</a>
             </div>
         </section>
@@ -447,7 +454,6 @@
             </div>
             <div class="footer-col">
                 <h4>Halaman Hukum</h4>
-                <!-- FIX INTERNAL LINK ACTION: Link fisik riil ke halaman sub agar robot meloloskan syarat internal link -->
                 <p><a href="robots.txt">Lihat Berkas Protokol Robots</a></p>
             </div>
         </div>
